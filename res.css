@@ -1,0 +1,111 @@
+body{
+    background-color: #a7b6f3;
+    
+}
+
+table{
+    width: 80%;
+    position: relative;
+}
+
+
+input{
+    width: 40%;
+    border: solid 1px ;
+    border-radius: 3px;
+    background-color: rgb(138, 132, 132);
+    padding: 10px;
+    border: none;
+    color: black;
+    margin-top: 18px;
+}
+
+
+
+::placeholder{
+    color: rgb(78, 74, 74);
+}
+
+h2{
+    font-family: "dancing script", cursive;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    margin-top: 50px;
+    text-shadow: 1px 3px 2px black;
+}
+hr{
+    width: 40%;
+    
+}
+
+.inp1{
+    width: 20%;
+}
+
+.inp2{
+    width: 20%;
+}
+
+.inp3{
+    width: 10%;
+}
+label{
+    color: black;
+}
+
+textarea{
+    width: 40%;
+    height: 70px;
+    background-color: rgb(138, 132, 132);
+    border: none;
+    margin-top: 18px;
+}
+ul li{
+    background-color: black;
+   width: 50px;
+   padding: 15px;
+   text-decoration: none;
+   border-radius: 4px;
+  margin-left: 90%;
+  position: absolute;
+}
+li{
+    list-style-type: none;;
+}
+
+a{
+    text-decoration: none;
+    color: #faf1bd;
+}
+
+ul :hover{
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: black 3px ;
+}
+
+
+button{
+    position: relative;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 8px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    margin-left: 23%;
+    margin-top: 15px
+}
+
+button:hover{
+    background-color: green;
+    transition: 1s;
+    transform: scale(1.05);
+    position: absolute;
+  
+}
+
